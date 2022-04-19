@@ -9,7 +9,6 @@ let products = data.products;
 return products;// Верните как результат функции свойство products объекта data
 }
 
-function addProduct(_products_) {}; 
  
 function renderProductsCards(json) { // Напишите функцию renderProductsCards(json)
  // Аргументом функции является JSON
