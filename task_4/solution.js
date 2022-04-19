@@ -13,7 +13,7 @@ function renderProductsCards(json) { // Напишите функцию renderPr
  let products;
  products = parseProducts(json);// Выполните функцию parseProducts, передав в неё json - аргумент функции и запишите результат в переменную products
  let length;
- length = 8;//products.length;// Запишите в переменную length значение свойства products.length
- for (let i = 0; i < length; i += 1) { // Напишите цикл, в котором перебираете все products от 0 до (length - 1)
+ length = products.length;// Запишите в переменную length значение свойства products.length
+ for (let i = 0; i < length; i++) { // Напишите цикл, в котором перебираете все products от 0 до (length - 1)
     function addProduct(products,[i]);} // и выполняете addProduct с каждым элементом массива products (передавая элемент массива как аргумент)
  }
