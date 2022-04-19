@@ -9,7 +9,7 @@ return data.products;// Верните как результат функции 
 }
 function renderProductsCards(json) { // Напишите функцию renderProductsCards(json)
  // Аргументом функции является JSON
- clearProducts(); // Выполните функцию clearProducts - она уже написана в коде, просто вызовите ее, аргументы не требуются
+ function clearProducts() {}; // Выполните функцию clearProducts - она уже написана в коде, просто вызовите ее, аргументы не требуются
  let products;
  products = parseProducts(json);// Выполните функцию parseProducts, передав в неё json - аргумент функции и запишите результат в переменную products
  let length;
