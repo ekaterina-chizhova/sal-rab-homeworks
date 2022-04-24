@@ -34,8 +34,7 @@
 // }
 function sendRequest(name, phone, address, goods, sum) {
         let data = {client: {name, phone}, order: {address, sum}, goods: [ ]};
-        //let object = {title: {}, count: {}};
-    let countOfGoods = goods.length;
+        let countOfGoods = goods.length;
         for (let i = 0; i < countOfGoods; i += 1) {
         //data.goods.push(goods[i].object);
         data.goods.push({title:goods[i].title, count: goods[i].count});
